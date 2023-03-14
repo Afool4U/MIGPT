@@ -10,7 +10,6 @@ from aiohttp import ClientSession
 from minaservice import MiNAService
 from miaccount import MiAccount
 from requests.utils import cookiejar_from_dict
-from rich import print
 from V3 import Chatbot
 
 LATEST_ASK_API = "https://userprofile.mina.mi.com/device_profile/v2/conversation?source=dialogu&hardware={hardware}&timestamp={timestamp}&limit=2"

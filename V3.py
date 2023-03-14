@@ -2,7 +2,6 @@
 A simple wrapper for the official ChatGPT API
 """
 import json
-import os
 import requests
 import tiktoken
 

@@ -6,6 +6,7 @@
 
 在作者的笔记本上，实测从提问到回答的时间仅不到1.5秒（当然，这个时间也取决于你的梯子和网络质量）。
  
+_* 点[此链接](https://v.douyin.com/Sg8rMrJ/)观看2分半的测试视频_
  
 ![image](https://github.com/Afool4U/MIGPT/blob/main/%E6%95%88%E6%9E%9C.png)
 

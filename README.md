@@ -10,6 +10,7 @@ _* 点[此链接](https://v.douyin.com/Sg8rMrJ/)观看2分半的测试视频_
  
 ![image](https://github.com/Afool4U/MIGPT/blob/main/%E6%95%88%E6%9E%9C.png)
 
+_注意：本项目因采用了流式传输，暂时不支持LX04、L05B和L05C型号。如您的音箱是该型号，请使用[xiaogpt](https://github.com/yihong0618/xiaogpt)。_
 
 ## 使用方法
 _分为3个steps:_

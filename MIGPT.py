@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import asyncio
 import json
+import os
 import subprocess
 from http.cookies import SimpleCookie
 from pathlib import Path
@@ -70,7 +71,7 @@ class MiGPT:
             hardware=SOUND_TYPE,
             use_command=False,
     ):
-        self.mi_token_home = Path.home() / ".mi.token"
+        self.mi_token_home = os.path.join(Path.home(), "." + MI_USER + ".mi.token")
         self.hardware = hardware
         self.cookie_string = ""
         self.last_timestamp = 0  # timestamp last call mi speaker

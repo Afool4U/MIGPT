@@ -1,0 +1,110 @@
+{
+    "log_level": 1,
+    "ai_keywords": [
+        "请",
+        "帮我",
+        "问一下",
+        "AI"
+    ],
+    "latest_ask_api": "https://userprofile.mina.mi.com/device_profile/v2/conversation?source=dialogu&hardware={hardware}&timestamp={timestamp}&limit=5",
+    "cookie_template": "deviceId={device_id}; serviceToken={service_token}; userId={user_id}",
+    "hardware_command_dict": {
+        "LX06": "5-1",
+        "L05B": "5-3",
+        "S12A": "5-1",
+        "LX01": "5-1",
+        "L06A": "5-1",
+        "LX04": "5-1",
+        "L05C": "5-3",
+        "L17A": "7-3",
+        "X08E": "7-3",
+        "LX05A": "5-1",
+        "LX5A": "5-1"
+    },
+    "mi_user": "",
+    "mi_pass": "",
+    "api_type": "custom",
+    "api_key": "",
+    "api_base": "",
+    "model_name": "",
+    "api_presets": {
+        "openai": {
+            "api_type": "openai",
+            "api_base": "https://api.openai.com/v1",
+            "model": "gpt-3.5-turbo"
+        },
+        "bigmodel": {
+            "api_type": "bigmodel",
+            "api_base": "https://open.bigmodel.cn/api/paas/v4",
+            "model": "glm-4-flash"
+        },
+        "deepseek": {
+            "api_type": "custom",
+            "api_base": "https://api.deepseek.com",
+            "model": "deepseek-chat"
+        },
+        "moonshot": {
+            "api_type": "custom",
+            "api_base": "https://api.moonshot.cn/v1",
+            "model": "moonshot-v1-8k"
+        },
+        "qwen": {
+            "api_type": "custom",
+            "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "model": "qwen-turbo"
+        },
+        "claude": {
+            "api_type": "custom",
+            "api_base": "https://api.anthropic.com/v1",
+            "model": "claude-3-haiku-20240307"
+        },
+        "volcengine": {
+            "api_type": "custom",
+            "api_base": "https://ark.cn-beijing.volces.com/api/v3",
+            "model": "deepseek-v3-250324"
+        },
+        "siliconflow": {
+            "api_type": "custom",
+            "api_base": "https://api.siliconflow.cn/v1",
+            "model": "Qwen/QwQ-32B",
+            "temperature": 0.7,
+            "top_p": 0.7,
+            "top_k": 50,
+            "frequency_penalty": 0.5,
+            "stream": false
+        },
+        "qianfan": {
+            "api_type": "custom",
+            "api_base": "https://qianfan.baidubce.com/v2",
+            "model": "ernie-3.5-8k"
+        }
+    },
+    "sound_type": "LX06",
+    "skip_device_selection": false,
+    "device_numbers": "",
+    "switch": true,
+    "prompt": "请用自然、友好的语气回答，像朋友一样交流，避免过于机械的回复",
+    "homeassistant": {
+        "url": "http://192.168.31.141:8123",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIwMWUzZjJmYjhhMGM0MDA1YTZiNDYzNTJmMTdhYzE2NSIsImlhdCI6MTc0NTI1NDU2MCwiZXhwIjoyMDYwNjE0NTYwfQ.s2XdMrBJHqIpHk0IHvpvwmUauslRs7D95xI3MKNFVIo",
+        "text_entity_id": "text.xiaomi_l16a_0be7_execute_text_directive",
+        "voice_agent_id": "conversation.huo_tian_da_you_ju_he_ai",
+        "ai_keywords": [
+            "小周",
+            "小洲",
+            "小舟",
+            "小猪",
+            "小度"
+        ],
+        "text_keywords": [
+            "小爱"
+        ],
+        "api_server": {
+            "enabled": "开启",
+            "port": "5001",
+            "host": "0.0.0.0",
+            "cors_enabled": "开启",
+            "rate_limit": "60"
+        }
+    }
+}
